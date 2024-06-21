@@ -1,0 +1,33 @@
+.note.parent {
+    margin: 55px auto;
+    width: 900px;
+    border-radius: 15px;
+    background-color: #fef2f2;
+    border: 2px solid #ff0000;
+    /* box-sizing: border-box; */
+    height: 86px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.note.container {
+    margin: auto;
+    width: 900px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.note text {
+    margin: 100%;
+    width: 100%;
+}
+.profile-picture {
+    margin: auto auto auto 250px;
+    }

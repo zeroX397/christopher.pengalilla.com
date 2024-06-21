@@ -7,7 +7,7 @@
     <title>Pengalilla Home Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/about.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
                         <a class="nav-link" href="http://shortener.pengalilla.id">URL Shortener System</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about/">About</a>
+                        <a class="nav-link active" href="about/">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">idk</a>
@@ -33,7 +33,15 @@
             </div>
         </div>
     </nav>
-
+    <div class="note parent">
+        <div class="note container">
+            <p class="note text">Note: I do not include my WhatsApp in this website, for privacy of course.<br>
+                Do not worry, I am using Telegram and Discord as often as WhatsApp too.</p>
+        </div>
+    </div>
+    <div class="profile-picture">
+        <img src="/assets/img/...jpg" alt="Profile Photo">
+    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
