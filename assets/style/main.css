@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+aside {
+    width: 100%; /* Let it take full width for responsiveness */
+    max-width: 400px; /* Set a reasonable maximum width */
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-right: 20px;
+    text-align: center;
+}
+
+article {
+    flex: 3;
+    padding: 20px;
+}
+
+p {
+    line-height: 2;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.skill-list li {
+    flex: 1 1 50%;
+    padding: 5px 0;
+}
+
+img {
+    width: 60%;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    
+    aside {
+        width: 100%; /* Let it take full width for responsiveness */
+        max-width: 250px; /* Set a reasonable maximum width */
+        padding: 20px;
+        background-color: #f4f4f4;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    img {
+        width: 50%;
+    }
+}
