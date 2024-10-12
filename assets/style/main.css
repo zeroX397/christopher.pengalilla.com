@@ -36,12 +36,15 @@ main {
 }
 
 aside {
-    width: 100%; /* Let it take full width for responsiveness */
-    max-width: 400px; /* Set a reasonable maximum width */
-    padding: 20px;
+    flex: 0 0 250px;
+    /* Fixed width for the sidebar */
     background-color: #f4f4f4;
-    margin-right: 20px;
-    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
 }
 
 article {
@@ -90,10 +93,12 @@ img {
     main {
         flex-direction: column;
     }
-    
+
     aside {
-        width: 100%; /* Let it take full width for responsiveness */
-        max-width: 250px; /* Set a reasonable maximum width */
+        width: 100%;
+        /* Let it take full width for responsiveness */
+        max-width: max-content;
+        /* Set a reasonable maximum width */
         padding: 20px;
         background-color: #f4f4f4;
         margin-right: 20px;
